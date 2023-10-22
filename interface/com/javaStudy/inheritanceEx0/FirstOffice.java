@@ -1,4 +1,4 @@
-package com.javaStudy.inheritanceEx;
+package com.javaStudy.inheritanceEx0;
 
 public class FirstOffice extends HeadOffice {
 	
