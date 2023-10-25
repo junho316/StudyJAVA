@@ -1,24 +1,24 @@
 package com.javaStudy.classDiagramEx4;
 
-import java.util.ArrayList;
-
 public class Transcript {
 
-	private ArrayList<Student> students = new ArrayList<Student>();
-	private ArrayList<Course> courses = new ArrayList<Course>();
+	private Student student;
+	private Course course;
 	private String date, grade;
 
 	public Transcript(Student student, Course course) {
-		students.add(student);
-		courses.add(course);
+		this.student = student;
+		this.course = course;
+		student.addTranscript(this);
+		course.addTranscript(this);
 	}
 
 	public Student getStudent() {
-		return null;
+		return student;
 	}
 
 	public Course getCourse() {
-		return null;
+		return course;
 	}
 
 	public String getDate() {
@@ -37,4 +37,7 @@ public class Transcript {
 		this.grade = grade;
 	}
 
+	public String toString() {
+		return student.getName() + " " + course.getName() + " " + grade;
+	}
 }
