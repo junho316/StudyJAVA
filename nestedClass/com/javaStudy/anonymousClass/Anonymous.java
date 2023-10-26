@@ -1,4 +1,4 @@
-package com.javaStudy.nestedClassEx3;
+package com.javaStudy.anonymousClass;
 
 public class Anonymous {
 

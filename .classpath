@@ -8,5 +8,7 @@
 	<classpathentry kind="src" path="polymorphism"/>
 	<classpathentry kind="src" path="class"/>
 	<classpathentry kind="src" path="abstract"/>
+	<classpathentry kind="src" path="nestedClass"/>
+	<classpathentry kind="src" path="exception"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
