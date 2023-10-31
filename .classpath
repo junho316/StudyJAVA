@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="nestedClass"/>
 	<classpathentry kind="src" path="exception"/>
 	<classpathentry kind="src" path="api"/>
+	<classpathentry kind="src" path="thread"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
