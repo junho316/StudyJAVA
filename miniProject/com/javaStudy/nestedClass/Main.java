@@ -1,4 +1,4 @@
-package com.javaStudy.miniproject3;
+package com.javaStudy.nestedClass;
 
 import java.util.Scanner;
 
@@ -35,20 +35,16 @@ public class Main {
 			case "6":
 				System.out.print("수정할 이름은?\t");
 				String editName = scanner.nextLine();
-				Addr addr = smartPhone.searchAddr(editName);
-				System.out.println("데이터를 새로 입력헤주세요");
-				if (addr instanceof CompanyAddr) {
-					smartPhone.editAddr(editName, smartPhone.inputAddrData("회사"));
-				} else if (addr instanceof CustomerAddr) {
-					smartPhone.editAddr(editName, smartPhone.inputAddrData("거래처"));
-				}
+				System.out.print("소속그룹은?\t");
+				String group = scanner.nextLine();
+				smartPhone.editAddr(editName, smartPhone.inputAddrData(group));
 				break;
 			case "7":
 				scanner.close();
 				System.exit(0);
 				break;
 			default:
-				System.out.println("잘못 입력했습니다.");
+				System.out.println("defalt");
 				break;
 			}
 

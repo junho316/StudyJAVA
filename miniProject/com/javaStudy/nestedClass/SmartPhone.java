@@ -1,4 +1,4 @@
-package com.javaStudy.miniproject2;
+package com.javaStudy.nestedClass;
 
 import java.util.Scanner;
 

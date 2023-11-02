@@ -1,4 +1,4 @@
-package com.javaStudy.miniproject3;
+package com.javaStudy.exception;
 
 public class NameException extends Exception {
 
