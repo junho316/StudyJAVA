@@ -1,4 +1,4 @@
-package com.javaStudy.map;
+package com.javaStudy.miniProject.map;
 
 import java.util.HashMap;
 import java.util.Iterator;

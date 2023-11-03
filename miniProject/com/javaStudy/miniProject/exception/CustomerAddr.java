@@ -1,4 +1,4 @@
-package com.javaStudy.nestedClass;
+package com.javaStudy.miniProject.exception;
 
 public class CustomerAddr extends Addr {
 
@@ -38,6 +38,7 @@ public class CustomerAddr extends Addr {
 		this.rank = rank;
 	}
 
+	@Override
 	public void print() {
 		System.out.println("이름\t:\t" + getName());
 		System.out.println("전화번호\t:\t" + getPhoneNumber());

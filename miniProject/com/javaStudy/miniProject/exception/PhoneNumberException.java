@@ -1,4 +1,4 @@
-package com.javaStudy.exception;
+package com.javaStudy.miniProject.exception;
 
 public class PhoneNumberException extends Exception {
 

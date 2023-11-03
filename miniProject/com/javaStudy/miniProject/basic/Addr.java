@@ -1,19 +1,20 @@
-package com.javaStudy.nestedClass;
+package com.javaStudy.miniProject.basic;
 
 public class Addr {
 
 	private String name;
 	private String phoneNumber;
-	private String email;
 	private String address;
 	private String group;
+	private String email;
 
-	public Addr(String name, String phoneNumber, String email, String address, String group) {
+	public Addr(String name, String phoneNumber, String address, String group, String email) {
 		this.name = name;
 		this.phoneNumber = phoneNumber;
-		this.email = email;
 		this.address = address;
 		this.group = group;
+		this.email = email;
+
 	}
 
 	public String getName() {
@@ -32,14 +33,6 @@ public class Addr {
 		this.phoneNumber = phoneNumber;
 	}
 
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
 	public String getAddress() {
 		return address;
 	}
@@ -56,12 +49,12 @@ public class Addr {
 		this.group = group;
 	}
 
-	public void print() {
-		System.out.println("이름\t:\t" + name);
-		System.out.println("전화번호\t:\t" + phoneNumber);
-		System.out.println("이메일\t:\t" + email);
-		System.out.println("주소 \t:\t" + address);
-		System.out.println("그룹 \t:\t" + group);
-		System.out.println("-----------------");
+	public String getEmail() {
+		return email;
 	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 }

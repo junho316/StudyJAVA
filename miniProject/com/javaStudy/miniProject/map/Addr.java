@@ -1,6 +1,4 @@
-package com.javaStudy.exception;
-
-import java.util.regex.Pattern;
+package com.javaStudy.miniProject.map;
 
 public class Addr {
 
@@ -59,12 +57,12 @@ public class Addr {
 	}
 
 	public void print() {
-		System.out.println("이름\t:\t" + name);
 		System.out.println("전화번호\t:\t" + phoneNumber);
+		System.out.println("이름\t:\t" + name);
 		System.out.println("이메일\t:\t" + email);
 		System.out.println("주소 \t:\t" + address);
 		System.out.println("그룹 \t:\t" + group);
 		System.out.println("-----------------");
 	}
-	
+
 }

@@ -1,4 +1,4 @@
-package com.javaStudy.exception;
+package com.javaStudy.miniProject.exception;
 
 import java.util.*;
 import java.util.Scanner;
