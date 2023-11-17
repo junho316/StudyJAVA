@@ -15,5 +15,7 @@
 	<classpathentry kind="src" path="miniProject"/>
 	<classpathentry kind="src" path="io"/>
 	<classpathentry kind="src" path="socket"/>
+	<classpathentry kind="src" path="sort"/>
+	<classpathentry kind="src" path="linkedList"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
