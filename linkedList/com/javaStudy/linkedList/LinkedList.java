@@ -2,7 +2,6 @@ package com.javaStudy.linkedList;
 
 public class LinkedList {
 	private ListNode head;
-	private ListNode tem = null;
 
 	public LinkedList() {
 		head = null;
@@ -18,12 +17,15 @@ public class LinkedList {
 		ListNode newNode = new ListNode(data);
 		if (head == null) {
 			head = newNode;
-		} else if (head.link == null) {
-			tem = newNode;
-			head.link = tem;
 		} else {
-			tem.link = newNode;
-			tem = newNode;
+			ListNode temp = this.head;
+			while (temp != null) {
+				if (temp.link == null) {
+					temp.link = newNode;
+					break;
+				}
+				temp = temp.link;
+			}
 		}
 	}
 
@@ -37,7 +39,6 @@ public class LinkedList {
 			pre = temp;
 			temp = temp.link;
 		}
-
 	}
 
 	public ListNode searchNode(String data) {
@@ -52,6 +53,16 @@ public class LinkedList {
 	}
 
 	public void reverseList() {
+		ListNode temp = this.head;
+		ListNode pre2 = null;
+
+		while (temp != null) {
+			ListNode pre1 = temp;
+			temp = temp.link;
+			pre1.link = pre2;
+			pre2 = pre1;
+		}
+		head = pre2;
 
 	}
 
