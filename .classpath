@@ -17,5 +17,7 @@
 	<classpathentry kind="src" path="socket"/>
 	<classpathentry kind="src" path="sort"/>
 	<classpathentry kind="src" path="linkedList"/>
+	<classpathentry kind="src" path="stack"/>
+	<classpathentry kind="src" path="dbms"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
